@@ -1,7 +1,7 @@
 Percentile-in-SciDB
 ===================
 
-To implement  window aggregates of percentile into SciDB as a plugin user-defined-operator
+To implement  window aggregates of percentile into SciDB as a plugin user-defined-operator                                  
 SciDB Version: 13.12
 
 ===================
