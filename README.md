@@ -4,6 +4,11 @@ Percentile-in-SciDB
 To implement  window aggregates of percentile into SciDB as a plugin user-defined-operator                                  
 SciDB Version: 13.12
 
+Optimized with incremental computation, performance greatly improve compared with naive methods.
+
+Check paper : Incremental window aggregates over array database
+Link        : http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=7004230&url=http%3A%2F%2Fieeexplore.ieee.org%2Fiel7%2F6973861%2F7004197%2F07004230.pdf%3Farnumber%3D7004230
+
 ===================
 Usage:
 copy libpercentile.so into the scidb plugin dir, 
